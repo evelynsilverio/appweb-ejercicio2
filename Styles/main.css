@@ -13,7 +13,7 @@
 body {
     
     padding: 0;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     right: 0;
@@ -158,6 +158,19 @@ nav .profile-link a {
 
 blog-news-info-container p {
     margin-bottom: 35px;
+}
+
+.blog-button {
+    border: 1px solid var(--color-primary);
+    padding: 10px 15px;
+    font-size: 12px;
+    background-color:#e7b0da;
+    color: var(--color-black);
+}
+.blog-button:hover {
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    background-color: var(--color-primary);
 }
 
 
