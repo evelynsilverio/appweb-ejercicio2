@@ -41,13 +41,13 @@
             <input type="email" id="mail" name="mail" required>
             <br><br>
             <!-- Creación de una lista de despliegue -->
-             <label for="intereses">¿Qué te interesa del blog?</label>
-             <select name="intereses" id="intereses">
+            <label for="intereses">¿Qué te interesa del blog?</label>
+            <select name="intereses" id="intereses">
                 <option value="historia">Historia de la computación</option>
                 <option value="noticias">Últimas noticias</option>
                 <option value="gadgets">Reseñas de los mejores gadgets</option>
-             </select>
-             <br><br>
+            </select>
+                <br><br>
             <!-- Otra forma de crear una lista -->
              <label for="gadgets">Selecciona el gadget que te interese:</label>
             <input list="gadgets">
@@ -57,6 +57,20 @@
                 <option value="Gafas">Gafas de realidad aumentada</option>
             </datalist>
             <br><br>
+            <!-- Botones de opción o radio buttom -->
+            <label for="gusto">¿Te gusta este blog?</label>
+                <br>
+                <input type="radio" name="gusto" id="si" value="Sí" checked>
+                <label for="si">Sí</label>
+                <br>
+                <input type="radio" name="gusto" id="no" value="No">
+                <label for="no">No</label>
+                <br>
+                <input type="radio" name="gusto" id="no_se" value="No sé">
+                <label for="no_se">No estoy sguro</label>
+                <br>
+                <br><br>
+
             <label for="mensaje">Escríbe tu mensaje:</label>
             <textarea name="mensaje" id="mensaje"></textarea>
             <button class="blog-button" type="submit">
